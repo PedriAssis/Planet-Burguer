@@ -1,0 +1,55 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Planet Burger </title>
+    <link rel="icon" type="image/x-icon" href="CSS/Imagens/favicon.ico">
+</head>
+<body>
+    <link rel="stylesheet" href="CSS/INDEX.css">
+
+<section>
+    <div class="circulo">
+
+    </div>
+    <header>
+        <a href="INDEX.html" ><img src="CSS/Imagens/InShot_20221109_161005313-removebg-preview.png" class="logo"></a>
+        <ul>
+            <li><a href="INDEX.html"> Home </a></li>
+            
+
+            <li><a href="Cardapio.html"> Cardapio </a></li>
+            <li><a href="Criadores.html"> Criadores </a></li>
+            <li><a href="login.html"> Login </a></li>
+        </ul>
+    </header>
+    <div class="primeiro">
+        <div class="textBox">
+            <h2> Sabor Interestelar <br> Planet <span> Burger </span> </h2>
+            <p> No mar dos sabores, tubarão não nada. </p>
+            <a href="História.html"> Saiba Mais </a>
+        </div>
+        <div class="imgBox">
+            <img src="CSS/Imagens/Hamburguer/burger3.png" class="planet">
+        </div>
+    </div>
+    <ul class="visualizador">
+        <li><img src="CSS/Imagens/Hamburguer/burger3.png" onclick="imgSlider('CSS/Imagens/Hamburguer/burger3.png')"></li>
+        <li><img src="CSS/Imagens/Hamburguer/burger2.png" onclick="imgSlider('CSS/Imagens/Hamburguer/burger2.png')"></li>
+        <li><img src="CSS/Imagens/Hamburguer/lanche4.png" onclick="imgSlider('CSS/Imagens/Hamburguer/lanche4.png')"></li>
+    </ul>
+    <ul class="sci">
+        <li><a href="" target="_blank"><img src="CSS/Imagens/Redes/facebook.png"></a></li>
+        <li><a href="https://www.instagram.com/planet_.burger/" target="_blank"><img src="CSS/Imagens/Redes/instagram.png"></a></li>
+        <li><a href="#" target="_blank"><img src="CSS/Imagens/Redes/twitter.png"></a></li>
+    </ul>
+</section>
+    
+</body>
+
+<script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.planet').src = anything;
+    }
+</script>
+
+</html>
